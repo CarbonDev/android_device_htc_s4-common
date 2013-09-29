@@ -27,6 +27,10 @@
 # Inherit from common msm8960
 -include device/htc/msm8960-common/BoardConfigCommon.mk
 
+# Platform
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
+BOARD_EGL_CFG := device/htc/s4-common/configs/egl.cfg
+
 # Release tools
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/s4-common
 
